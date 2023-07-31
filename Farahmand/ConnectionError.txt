@@ -1,0 +1,6 @@
+System.InvalidOperationException
+  HResult=0x80131509
+  Message=Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+  Source=<Cannot evaluate the exception source>
+  StackTrace:
+<Cannot evaluate the exception stack trace>

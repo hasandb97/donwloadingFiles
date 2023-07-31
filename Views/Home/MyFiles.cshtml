@@ -1,0 +1,14 @@
+﻿@model IEnumerable<FileInfo>
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Contact</h2>
+
+<ul>
+    @foreach (FileInfo file in Model)
+    {
+        <li>@file.Name    @Html.ActionLink(file.Name , "DownloadFile" , "Home" , routeValues: new { filename = file.Name} , htmlAttributes:null) </li>
+    }
+</ul>
